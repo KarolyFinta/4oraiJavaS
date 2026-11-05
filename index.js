@@ -31,6 +31,15 @@ let gyumolcsElemek = document.querySelectorAll(".gyumolcs")
 gyumolcsElemek[0].textContent="ALMA";
 gyumolcsElemek[1].textContent=gyumolcsElemek[2].textContent;
 
+/*4. a divre az inputelembe beírt gyumolcsnév kerüljön a felsorolas vegere
+    1. megfogjuk a diveket
+    2. kell rá egy eseménykezelő
+    3. kell egy metótus 
+    4. meg kell fogni az ul-t
+    4.5 meg kell fogni az input elemet
+    5. bele kell írni az ul-be
+*/
+
 
 let divElem=document.getElementById("uzenet")
 divElem.addEventListener("click", beIr)
